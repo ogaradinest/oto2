@@ -13,7 +13,7 @@ const ProcessSection = () => {
     },
     {
       step: "EDUCATE", 
-      description: "train you and your team to make sure you can survive long after we're gone",
+      description: "train you and your team to make sure you can innovate further",
       icon: Users,
       color: "from-[#F9AD6A] to-[#D46C4E]",
       iconBg: "bg-[#264D59]",
@@ -21,7 +21,7 @@ const ProcessSection = () => {
     },
     {
       step: "IMPLEMENT",
-      description: "efficiency through a different view, a fresh pair of eyes. owl eyes.",
+      description: "efficiency through a fresh pair of eyes. owl eyes.",
       icon: Settings,
       color: "from-[#264D59] to-[#43978D]",
       iconBg: "bg-[#F9E07F]",
