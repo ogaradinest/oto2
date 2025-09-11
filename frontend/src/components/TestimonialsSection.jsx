@@ -108,7 +108,7 @@ const TestimonialsSection = () => {
             </p>
             <button 
               onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
-              className="bg-[#43978D] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#264D59] transition-all duration-200 shadow-lg hover:shadow-xl"
+              className="bg-red-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-red-600 transition-all duration-200 shadow-lg hover:shadow-xl"
             >
               Let's talk
             </button>
