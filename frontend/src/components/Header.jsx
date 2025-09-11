@@ -22,11 +22,11 @@ const Header = () => {
             <img 
               src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/e3zpy7zy_header%20%282%29.png" 
               alt="otobrothers header" 
-              className="h-48 w-auto opacity-80"
+              className="h-24 w-auto opacity-80"
             />
           </div>
           
-          {/* Logo positioned in upper left - smaller size */}
+          {/* Logo positioned in upper left - same size as header */}
           <div className="relative z-10 flex justify-start">
             <img 
               src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/1uo09bs0_logo%20%282%29.png" 
