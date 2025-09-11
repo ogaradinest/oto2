@@ -75,16 +75,8 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Header Image */}
-          <div className="flex justify-center lg:justify-end order-first lg:order-last">
-            <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-[#F9E07F] to-[#F9AD6A] rounded-3xl blur-2xl opacity-30 transform rotate-6"></div>
-              <img 
-                src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/gjugm34k_header.png" 
-                alt="Business Automation" 
-                className="relative z-10 max-w-full h-auto rounded-3xl shadow-2xl transform hover:scale-105 transition-transform duration-300 max-h-64 sm:max-h-80 lg:max-h-96"
-              />
-            </div>
+          {/* Header Image - Removed to fix alignment */}
+          <div className="hidden">
           </div>
         </div>
       </div>
