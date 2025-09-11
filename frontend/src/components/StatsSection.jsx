@@ -45,14 +45,11 @@ const StatsSection = () => {
 
         {/* Bottom CTA */}
         <div className="text-center mt-16">
-          <p className="text-2xl text-gray-300 mb-8">
-            Ready to join these success stories?
-          </p>
           <button 
             onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
             className="bg-gradient-to-r from-[#F9AD6A] to-[#D46C4E] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-[#F9E07F] hover:to-[#F9AD6A] transition-all duration-200 shadow-lg hover:shadow-xl"
           >
-            Let's Partner Up
+            Let's talk
           </button>
         </div>
       </div>
