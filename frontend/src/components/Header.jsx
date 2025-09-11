@@ -40,7 +40,7 @@ const Header = () => {
         <div className="border-t border-gray-200 py-3">
           <div className="flex justify-between items-center">
             {/* Desktop Navigation */}
-            <nav className="hidden md:flex space-x-4 lg:space-x-8">
+            <nav className="hidden md:flex space-x-4 lg:space-x-8 ml-auto">
               <button 
                 onClick={() => scrollToSection('services')}
                 className="text-gray-700 hover:text-[#43978D] transition-colors duration-200 font-medium text-sm lg:text-base"
