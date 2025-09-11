@@ -41,12 +41,8 @@ const ServicesSection = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-[#264D59] mb-6">
-            Comprehensive <span className="text-[#43978D]">Automation Solutions</span>
+            <span className="text-[#43978D]">otomation Solutions</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            From AI-powered workflows to industry-specific automations, we deliver 
-            tailored solutions that transform your business operations.
-          </p>
         </div>
 
         {/* Services Grid */}
