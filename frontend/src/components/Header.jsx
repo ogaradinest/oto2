@@ -63,7 +63,7 @@ const Header = () => {
                 onClick={() => scrollToSection('contact')}
                 className="bg-[#43978D] text-white px-4 lg:px-6 py-2 rounded-lg hover:bg-[#264D59] transition-colors duration-200 font-medium text-sm lg:text-base"
               >
-                Get In Touch
+                Let's talk
               </button>
             </nav>
 
