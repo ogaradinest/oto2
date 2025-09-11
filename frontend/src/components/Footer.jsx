@@ -17,7 +17,7 @@ const Footer = () => {
     <footer className="bg-[#264D59] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Content */}
-        <div className="py-16 grid lg:grid-cols-4 gap-12">
+        <div className="py-16 grid lg:grid-cols-3 gap-12">
           {/* Brand Section */}
           <div className="lg:col-span-2 space-y-6">
             <div className="flex items-center space-x-4">
@@ -49,37 +49,6 @@ const Footer = () => {
               >
                 <Youtube size={24} />
               </a>
-            </div>
-          </div>
-
-          {/* Quick Links */}
-          <div>
-            <h4 className="text-xl font-bold mb-6 text-[#F9E07F]">Quick Links</h4>
-            <div className="space-y-4">
-              <button 
-                onClick={() => scrollToSection('services')}
-                className="block text-gray-300 hover:text-[#F9AD6A] transition-colors duration-200"
-              >
-                Our Services
-              </button>
-              <button 
-                onClick={() => scrollToSection('process')}
-                className="block text-gray-300 hover:text-[#F9AD6A] transition-colors duration-200"
-              >
-                Our Process
-              </button>
-              <button 
-                onClick={() => scrollToSection('about')}
-                className="block text-gray-300 hover:text-[#F9AD6A] transition-colors duration-200"
-              >
-                Success Stories
-              </button>
-              <button 
-                onClick={() => scrollToSection('contact')}
-                className="block text-gray-300 hover:text-[#F9AD6A] transition-colors duration-200"
-              >
-                Get In Touch
-              </button>
             </div>
           </div>
 
