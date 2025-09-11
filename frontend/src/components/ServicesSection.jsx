@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ChevronDown, ChevronUp, Zap, Users, HeadphonesIcon, Calculator, UserCheck, BarChart3, Building } from "lucide-react";
+import { ChevronDown, ChevronUp, Zap, Users, HeadphonesIcon, Calculator, UserCheck, BarChart3, Building, ArrowRight } from "lucide-react";
 import { mockServices } from "../data/mockData";
 
 const ServicesSection = () => {
