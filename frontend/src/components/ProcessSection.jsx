@@ -5,8 +5,7 @@ const ProcessSection = () => {
   const processSteps = [
     {
       step: "IDENTIFY",
-      title: "We help you identify high-impact automation opportunities",
-      description: "and build a step-by-step Business Automation strategy to bring them to life.",
+      description: "high-impact otomation opportunities",
       icon: Search,
       color: "from-[#43978D] to-[#264D59]",
       iconBg: "bg-[#F9E07F]",
@@ -14,17 +13,15 @@ const ProcessSection = () => {
     },
     {
       step: "EDUCATE", 
-      title: "We train and support your team with the right tools and know-how",
-      description: "to embed automation across your entire organization.",
+      description: "train you and your team to make sure you can survive long after we're gone",
       icon: Users,
       color: "from-[#F9AD6A] to-[#D46C4E]",
       iconBg: "bg-[#264D59]",
       iconColor: "text-white"
     },
     {
-      step: "DEVELOP",
-      title: "We leverage our extensive experience and network to develop custom automation systems",
-      description: "that are proven to move the needle inside your business.",
+      step: "IMPLEMENT",
+      description: "efficiency through a different view, a fresh pair of eyes. owl eyes.",
       icon: Settings,
       color: "from-[#264D59] to-[#43978D]",
       iconBg: "bg-[#F9E07F]",
@@ -45,69 +42,52 @@ const ProcessSection = () => {
           </h2>
         </div>
 
-        {/* Process Steps */}
-        <div className="space-y-12 lg:space-y-20">
+        {/* Process Steps - All in one row */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 mb-12 lg:mb-16">
           {processSteps.map((process, index) => (
-            <div key={index} className={`grid lg:grid-cols-2 gap-8 lg:gap-12 items-center ${index % 2 === 1 ? 'lg:grid-flow-col-dense' : ''}`}>
-              {/* Content */}
-              <div className={`space-y-4 lg:space-y-6 ${index % 2 === 1 ? 'lg:col-start-2' : ''}`}>
-                <div className="flex items-center space-x-3 lg:space-x-4 mb-4 lg:mb-6">
-                  <div className={`${process.iconBg} p-3 lg:p-4 rounded-xl lg:rounded-2xl`}>
-                    <process.icon className={`${process.iconColor}`} size={24} />
-                  </div>
-                  <span className="text-xl lg:text-2xl font-bold text-gray-400">
-                    {String(index + 1).padStart(2, '0')}
-                  </span>
-                </div>
-                
-                <div>
-                  <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#264D59] mb-3 lg:mb-4">
-                    {process.step}
-                  </h3>
-                  <p className="text-lg sm:text-xl text-gray-700 leading-relaxed">
-                    {process.title}{" "}
-                    <span className="text-[#43978D] font-medium">
-                      {process.description}
-                    </span>
-                  </p>
-                </div>
-
-                {/* CTA Button for last step */}
-                {index === processSteps.length - 1 && (
-                  <button 
-                    onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
-                    className="bg-[#43978D] text-white px-6 lg:px-8 py-3 lg:py-4 rounded-lg font-semibold text-base lg:text-lg hover:bg-[#264D59] transition-all duration-200 flex items-center gap-2 group mt-6 lg:mt-8"
-                  >
-                    Start Your Automation Journey
-                    <ArrowRight className="group-hover:translate-x-1 transition-transform duration-200" size={18} />
-                  </button>
-                )}
+            <div key={index} className={`relative rounded-2xl bg-gradient-to-br ${process.color} p-6 lg:p-8 text-white text-center min-h-[280px] flex flex-col justify-center`}>
+              {/* Background decoration */}
+              <div className="absolute inset-0 opacity-10 rounded-2xl overflow-hidden">
+                <div className="absolute top-4 left-4 w-16 h-16 bg-white rounded-full blur-xl"></div>
+                <div className="absolute bottom-4 right-4 w-12 h-12 bg-white rounded-full blur-lg"></div>
+              </div>
+              
+              {/* Step Number */}
+              <div className="absolute top-4 right-4 bg-white bg-opacity-20 backdrop-blur-sm rounded-full w-10 h-10 flex items-center justify-center">
+                <span className="text-white font-bold text-sm">
+                  {index + 1}
+                </span>
               </div>
 
-              {/* Visual Element */}
-              <div className={`relative ${index % 2 === 1 ? 'lg:col-start-1' : ''} order-first lg:order-none`}>
-                <div className={`relative h-64 sm:h-80 lg:h-96 rounded-2xl lg:rounded-3xl bg-gradient-to-br ${process.color} p-6 lg:p-8 flex items-center justify-center overflow-hidden`}>
-                  {/* Background decoration */}
-                  <div className="absolute inset-0 opacity-20">
-                    <div className="absolute top-6 lg:top-10 left-6 lg:left-10 w-24 lg:w-32 h-24 lg:h-32 bg-white rounded-full blur-xl lg:blur-2xl"></div>
-                    <div className="absolute bottom-6 lg:bottom-10 right-6 lg:right-10 w-16 lg:w-24 h-16 lg:h-24 bg-white rounded-full blur-lg lg:blur-xl"></div>
-                  </div>
-                  
-                  {/* Large Icon */}
-                  <div className="relative z-10 bg-white bg-opacity-20 p-8 lg:p-12 rounded-full backdrop-blur-sm">
-                    <process.icon className="text-white" size={60} />
-                  </div>
-                  
-                  {/* Step Number */}
-                  <div className="absolute top-4 lg:top-6 right-4 lg:right-6 bg-white bg-opacity-20 backdrop-blur-sm rounded-full w-12 lg:w-16 h-12 lg:h-16 flex items-center justify-center">
-                    <span className="text-white font-bold text-lg lg:text-xl">
-                      {index + 1}
-                    </span>
-                  </div>
+              {/* Icon */}
+              <div className="relative z-10 mb-6">
+                <div className={`${process.iconBg} p-4 rounded-xl inline-block`}>
+                  <process.icon className={`${process.iconColor}`} size={32} />
                 </div>
+              </div>
+              
+              {/* Content */}
+              <div className="relative z-10">
+                <h3 className="text-2xl lg:text-3xl font-bold mb-4">
+                  {process.step}
+                </h3>
+                <p className="text-base lg:text-lg leading-relaxed opacity-90">
+                  {process.description}
+                </p>
               </div>
             </div>
           ))}
+        </div>
+
+        {/* CTA Section */}
+        <div className="text-center">
+          <button 
+            onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
+            className="bg-[#43978D] text-white px-6 lg:px-8 py-3 lg:py-4 rounded-lg font-semibold text-base lg:text-lg hover:bg-[#264D59] transition-all duration-200 flex items-center gap-2 group mx-auto"
+          >
+            Start Your Automation Journey
+            <ArrowRight className="group-hover:translate-x-1 transition-transform duration-200" size={18} />
+          </button>
         </div>
 
         {/* Bottom Message */}
