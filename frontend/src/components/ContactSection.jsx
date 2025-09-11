@@ -63,7 +63,7 @@ const ContactSection = () => {
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <label className="block text-sm font-semibold text-[#264D59] mb-2">
-                        What is your name? *
+                        Name *
                       </label>
                       <input
                         type="text"
@@ -77,7 +77,7 @@ const ContactSection = () => {
                     </div>
                     <div>
                       <label className="block text-sm font-semibold text-[#264D59] mb-2">
-                        What is your email? *
+                        Email *
                       </label>
                       <input
                         type="email"
@@ -95,7 +95,7 @@ const ContactSection = () => {
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <label className="block text-sm font-semibold text-[#264D59] mb-2">
-                        What is your role in the company?
+                        Role in Company
                       </label>
                       <input
                         type="text"
@@ -122,21 +122,8 @@ const ContactSection = () => {
                     </div>
                   </div>
 
-                  {/* Website and Company Size */}
+                  {/* Company Size and Revenue */}
                   <div className="grid md:grid-cols-2 gap-6">
-                    <div>
-                      <label className="block text-sm font-semibold text-[#264D59] mb-2">
-                        Company Website
-                      </label>
-                      <input
-                        type="url"
-                        name="website"
-                        value={formData.website}
-                        onChange={handleInputChange}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43978D] focus:border-transparent transition-all duration-200"
-                        placeholder="https://yourcompany.com"
-                      />
-                    </div>
                     <div>
                       <label className="block text-sm font-semibold text-[#264D59] mb-2">
                         Company Size
@@ -155,13 +142,9 @@ const ContactSection = () => {
                         <option value="More than 500">More than 500</option>
                       </select>
                     </div>
-                  </div>
-
-                  {/* Revenue and Budget */}
-                  <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <label className="block text-sm font-semibold text-[#264D59] mb-2">
-                        Company's Annual Revenue
+                        Annual Revenue
                       </label>
                       <select
                         name="revenue"
@@ -177,6 +160,10 @@ const ContactSection = () => {
                         <option value="More than $2M">More than $2M</option>
                       </select>
                     </div>
+                  </div>
+
+                  {/* Budget and Services */}
+                  <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <label className="block text-sm font-semibold text-[#264D59] mb-2">
                         Project Budget
@@ -194,27 +181,25 @@ const ContactSection = () => {
                         <option value="More than $100K">More than $100K</option>
                       </select>
                     </div>
-                  </div>
-
-                  {/* Services Interest */}
-                  <div>
-                    <label className="block text-sm font-semibold text-[#264D59] mb-2">
-                      What services are you interested in?
-                    </label>
-                    <select
-                      name="services"
-                      value={formData.services}
-                      onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43978D] focus:border-transparent transition-all duration-200"
-                    >
-                      <option value="">Select service</option>
-                      <option value="Business Process Automation">Business Process Automation</option>
-                      <option value="Sales & Marketing Automation">Sales & Marketing Automation</option>
-                      <option value="Customer Support Automation">Customer Support Automation</option>
-                      <option value="HR & Operations Automation">HR & Operations Automation</option>
-                      <option value="Custom Automation Solutions">Custom Automation Solutions</option>
-                      <option value="Full Automation Assessment">Full Automation Assessment</option>
-                    </select>
+                    <div>
+                      <label className="block text-sm font-semibold text-[#264D59] mb-2">
+                        Services of Interest
+                      </label>
+                      <select
+                        name="services"
+                        value={formData.services}
+                        onChange={handleInputChange}
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43978D] focus:border-transparent transition-all duration-200"
+                      >
+                        <option value="">Select service</option>
+                        <option value="Business Process Automation">Business Process Automation</option>
+                        <option value="Sales & Marketing Automation">Sales & Marketing Automation</option>
+                        <option value="Customer Support Automation">Customer Support Automation</option>
+                        <option value="HR & Operations Automation">HR & Operations Automation</option>
+                        <option value="Custom Automation Solutions">Custom Automation Solutions</option>
+                        <option value="Full Automation Assessment">Full Automation Assessment</option>
+                      </select>
+                    </div>
                   </div>
 
                   {/* Message */}
