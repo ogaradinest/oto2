@@ -136,25 +136,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* CTA Section */}
-        <div className="border-t border-gray-600 py-12">
-          <div className="text-center">
-            <h3 className="text-3xl font-bold mb-4">
-              Accelerate your <span className="text-[#F9E07F]">automation adoption</span> journey.
-            </h3>
-            <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
-              Ready to transform your business with proven automation solutions? 
-              Let's start the conversation today.
-            </p>
-            <button 
-              onClick={() => scrollToSection('contact')}
-              className="bg-gradient-to-r from-[#F9AD6A] to-[#D46C4E] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-[#F9E07F] hover:to-[#F9AD6A] transition-all duration-200 shadow-lg hover:shadow-xl"
-            >
-              Let's Partner Up
-            </button>
-          </div>
-        </div>
-
         {/* Bottom Bar */}
         <div className="border-t border-gray-600 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
