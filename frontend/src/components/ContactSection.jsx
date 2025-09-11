@@ -7,7 +7,6 @@ const ContactSection = () => {
     email: '',
     role: '',
     company: '',
-    website: '',
     companySize: '',
     revenue: '',
     budget: '',
