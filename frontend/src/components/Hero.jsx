@@ -38,15 +38,8 @@ const Hero = () => {
                 onClick={scrollToContact}
                 className="bg-[#F9AD6A] text-[#264D59] px-6 lg:px-8 py-3 lg:py-4 rounded-lg font-semibold text-base lg:text-lg hover:bg-[#F9E07F] transition-all duration-200 flex items-center justify-center gap-2 group"
               >
-                Start Your Journey
+                Call us. Now (or later)
                 <ArrowRight className="group-hover:translate-x-1 transition-transform duration-200" size={20} />
-              </button>
-              
-              <button 
-                onClick={() => document.getElementById('process').scrollIntoView({ behavior: 'smooth' })}
-                className="border-2 border-white text-white px-6 lg:px-8 py-3 lg:py-4 rounded-lg font-semibold text-base lg:text-lg hover:bg-white hover:text-[#264D59] transition-all duration-200"
-              >
-                Learn Our Process
               </button>
             </div>
 
