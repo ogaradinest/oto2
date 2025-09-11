@@ -35,10 +35,7 @@ const ProcessSection = () => {
         {/* Header */}
         <div className="text-center mb-12 lg:mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#264D59] mb-4 lg:mb-6">
-            We spend our days guiding companies
-            <br className="hidden sm:block" />
-            through our 3-step{" "}
-            <span className="text-[#43978D]">Business Automation Journey.</span>
+            3-step Business <span className="text-red-500">otomation</span> Process
           </h2>
         </div>
 
