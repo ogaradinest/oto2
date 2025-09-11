@@ -85,7 +85,7 @@ const ProcessSection = () => {
             onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
             className="bg-[#43978D] text-white px-6 lg:px-8 py-3 lg:py-4 rounded-lg font-semibold text-base lg:text-lg hover:bg-[#264D59] transition-all duration-200 flex items-center gap-2 group mx-auto"
           >
-            Start Your Automation Journey
+            Let's talk
             <ArrowRight className="group-hover:translate-x-1 transition-transform duration-200" size={18} />
           </button>
         </div>
