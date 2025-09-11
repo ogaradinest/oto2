@@ -24,13 +24,12 @@ const Footer = () => {
               <img 
                 src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/1uo09bs0_logo%20%282%29.png" 
                 alt="otobrothers" 
-                className="h-12 w-auto"
+                className="h-12 w-auto filter brightness-150 contrast-125"
               />
             </div>
             <p className="text-gray-300 text-lg max-w-2xl">
-              We are your trusted partner in becoming an automation-first company. 
-              Our proven 3-step Business Automation Journey transforms operations, 
-              eliminates inefficiencies, and drives sustainable growth.
+              We are sharp, good and determined to create efficient processes. 
+              The Owls of the business world.
             </p>
             <div className="flex space-x-4">
               <a 
