@@ -65,18 +65,6 @@ export const mockServices = [
       "Predictive Modeling: Forecast demand, sales, and operational bottlenecks",
       "Automated Compliance Monitoring: AI scans and flags non-compliance in data handling"
     ]
-  },
-  {
-    id: 7,
-    category: "Industry-Specific Automations",
-    icon: "🔹",
-    services: [
-      "Legal: AI contract review, case law research, compliance automation",
-      "Healthcare: Automated patient intake, medical coding, AI triage assistants",
-      "Manufacturing: Predictive maintenance, supply chain optimization",
-      "Real Estate: Automated valuations, client outreach, property document handling",
-      "Finance: Fraud detection, regulatory reporting, transaction monitoring"
-    ]
   }
 ];
 
