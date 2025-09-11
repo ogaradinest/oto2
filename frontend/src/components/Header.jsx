@@ -102,7 +102,7 @@ const Header = () => {
                 </button>
                 <button 
                   onClick={() => scrollToSection('contact')}
-                  className="bg-[#43978D] text-white px-6 py-2 rounded-lg hover:bg-[#264D59] transition-colors duration-200 font-medium text-left w-fit"
+                  className="bg-red-500 text-white px-6 py-2 rounded-lg hover:bg-red-600 transition-colors duration-200 font-medium text-left w-fit"
                 >
                   Let's talk
                 </button>
