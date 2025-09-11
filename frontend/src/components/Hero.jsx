@@ -18,9 +18,9 @@ const Hero = () => {
       </div>
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+        <div className="flex flex-col items-center text-center">
           {/* Content */}
-          <div className="space-y-6 lg:space-y-8 text-center lg:text-left">
+          <div className="space-y-6 lg:space-y-8 max-w-4xl">
             <div className="space-y-4 lg:space-y-6">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-center">
                 <span className="text-[#F9E07F]">otomation</span>
@@ -31,7 +31,7 @@ const Hero = () => {
               </h1>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
                 onClick={scrollToContact}
                 className="bg-[#F9AD6A] text-[#264D59] px-6 lg:px-8 py-3 lg:py-4 rounded-lg font-semibold text-base lg:text-lg hover:bg-[#F9E07F] transition-all duration-200 flex items-center justify-center gap-2 group"
