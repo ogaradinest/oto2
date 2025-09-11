@@ -16,22 +16,22 @@ const Header = () => {
     <header className="bg-white shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Logo and Header Image Section */}
-        <div className="relative py-5 sm:py-7 lg:py-9">
+        <div className="relative py-8 sm:py-10 lg:py-12">
           {/* Logo positioned in upper left */}
           <div className="relative z-10 flex justify-start">
             <img 
               src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/1uo09bs0_logo%20%282%29.png" 
               alt="otobrothers" 
-              className="h-18 sm:h-23 md:h-28 lg:h-37 w-auto"
+              className="h-24 sm:h-32 md:h-40 lg:h-48 w-auto"
             />
           </div>
           
           {/* Header image positioned in upper right - SAME HEIGHT as logo - Hidden on mobile */}
-          <div className="absolute top-5 sm:top-7 lg:top-9 right-0 z-0 hidden sm:block">
+          <div className="absolute top-8 sm:top-10 lg:top-12 right-0 z-0 hidden sm:block">
             <img 
               src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/e3zpy7zy_header%20%282%29.png" 
               alt="otobrothers header" 
-              className="h-18 sm:h-23 md:h-28 lg:h-37 w-auto opacity-80"
+              className="h-24 sm:h-32 md:h-40 lg:h-48 w-auto opacity-80"
             />
           </div>
         </div>
