@@ -16,22 +16,22 @@ const Header = () => {
     <header className="bg-white shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Logo and Header Image Section */}
-        <div className="relative py-8">
+        <div className="relative py-4 sm:py-6 lg:py-8">
           {/* Logo positioned in upper left */}
           <div className="relative z-10 flex justify-start">
             <img 
               src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/1uo09bs0_logo%20%282%29.png" 
               alt="otobrothers" 
-              className="h-32 w-auto"
+              className="h-16 sm:h-20 md:h-24 lg:h-32 w-auto"
             />
           </div>
           
-          {/* Header image positioned in upper right - SAME HEIGHT as logo */}
-          <div className="absolute top-8 right-0 z-0">
+          {/* Header image positioned in upper right - SAME HEIGHT as logo - Hidden on mobile */}
+          <div className="absolute top-4 sm:top-6 lg:top-8 right-0 z-0 hidden sm:block">
             <img 
               src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/e3zpy7zy_header%20%282%29.png" 
               alt="otobrothers header" 
-              className="h-32 w-auto opacity-80"
+              className="h-16 sm:h-20 md:h-24 lg:h-32 w-auto opacity-80"
             />
           </div>
         </div>
@@ -40,35 +40,35 @@ const Header = () => {
         <div className="border-t border-gray-200 py-3">
           <div className="flex justify-between items-center">
             {/* Desktop Navigation */}
-            <nav className="hidden md:flex space-x-8">
+            <nav className="hidden md:flex space-x-4 lg:space-x-8">
               <button 
                 onClick={() => scrollToSection('services')}
-                className="text-gray-700 hover:text-[#43978D] transition-colors duration-200 font-medium"
+                className="text-gray-700 hover:text-[#43978D] transition-colors duration-200 font-medium text-sm lg:text-base"
               >
                 Services
               </button>
               <button 
                 onClick={() => scrollToSection('process')}
-                className="text-gray-700 hover:text-[#43978D] transition-colors duration-200 font-medium"
+                className="text-gray-700 hover:text-[#43978D] transition-colors duration-200 font-medium text-sm lg:text-base"
               >
                 Process
               </button>
               <button 
                 onClick={() => scrollToSection('about')}
-                className="text-gray-700 hover:text-[#43978D] transition-colors duration-200 font-medium"
+                className="text-gray-700 hover:text-[#43978D] transition-colors duration-200 font-medium text-sm lg:text-base"
               >
                 About
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}
-                className="bg-[#43978D] text-white px-6 py-2 rounded-lg hover:bg-[#264D59] transition-colors duration-200 font-medium"
+                className="bg-[#43978D] text-white px-4 lg:px-6 py-2 rounded-lg hover:bg-[#264D59] transition-colors duration-200 font-medium text-sm lg:text-base"
               >
                 Get In Touch
               </button>
             </nav>
 
             {/* Mobile menu button */}
-            <div className="md:hidden">
+            <div className="md:hidden ml-auto">
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                 className="text-gray-700 hover:text-[#43978D] transition-colors duration-200"
