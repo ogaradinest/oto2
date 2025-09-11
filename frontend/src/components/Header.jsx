@@ -16,13 +16,13 @@ const Header = () => {
     <header className="bg-white shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Logo and Header Image Section */}
-        <div className="relative py-4">
+        <div className="relative py-8">
           {/* Header image positioned in upper right, behind logo */}
           <div className="absolute top-0 right-0 z-0">
             <img 
               src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/e3zpy7zy_header%20%282%29.png" 
               alt="otobrothers header" 
-              className="h-16 w-auto opacity-80"
+              className="h-48 w-auto opacity-80"
             />
           </div>
           
@@ -31,7 +31,7 @@ const Header = () => {
             <img 
               src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/1uo09bs0_logo%20%282%29.png" 
               alt="otobrothers" 
-              className="h-16 w-auto"
+              className="h-48 w-auto"
             />
           </div>
         </div>
