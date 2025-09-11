@@ -47,7 +47,7 @@ const StatsSection = () => {
         <div className="text-center mt-16">
           <button 
             onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
-            className="bg-gradient-to-r from-[#F9AD6A] to-[#D46C4E] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-[#F9E07F] hover:to-[#F9AD6A] transition-all duration-200 shadow-lg hover:shadow-xl"
+            className="bg-red-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-red-600 transition-all duration-200 shadow-lg hover:shadow-xl"
           >
             Let's talk
           </button>
