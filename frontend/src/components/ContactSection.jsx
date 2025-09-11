@@ -36,12 +36,8 @@ const ContactSection = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-[#264D59] mb-6">
-            Tell us where <span className="text-[#43978D]">you're at</span>
+            <span className="text-[#43978D]">Let's talk</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ready to transform your business with automation? Let's start the conversation. 
-            Share your details and we'll show you exactly how we can help.
-          </p>
         </div>
 
         <div className="grid lg:grid-cols-3 gap-12">
