@@ -225,9 +225,8 @@ const ContactSection = () => {
             </div>
           </div>
 
-          {/* Contact Information */}
+          {/* Office Locations */}
           <div className="space-y-8">
-            {/* Office Locations */}
             <div className="bg-white rounded-3xl shadow-xl p-8">
               <h3 className="text-2xl font-bold text-[#264D59] mb-6">Our Offices</h3>
               
@@ -267,27 +266,29 @@ const ContactSection = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
 
-            {/* Why Choose Us */}
-            <div className="bg-white rounded-3xl shadow-xl p-8">
-              <h3 className="text-2xl font-bold text-[#264D59] mb-6">Why Choose otobrothers?</h3>
-              <div className="space-y-4">
-                <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-[#43978D] rounded-full mt-2"></div>
-                  <p className="text-gray-600">Proven track record with 435+ successful implementations</p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-[#F9AD6A] rounded-full mt-2"></div>
-                  <p className="text-gray-600">Custom solutions tailored to your specific business needs</p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-[#D46C4E] rounded-full mt-2"></div>
-                  <p className="text-gray-600">Rapid implementation with measurable ROI</p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-[#264D59] rounded-full mt-2"></div>
-                  <p className="text-gray-600">Ongoing support and training for your team</p>
-                </div>
+        {/* Why Choose Us - Moved after contact form */}
+        <div className="mt-16">
+          <div className="bg-white rounded-3xl shadow-xl p-8 max-w-4xl mx-auto">
+            <h3 className="text-2xl font-bold text-[#264D59] mb-6 text-center">Why Choose otobrothers?</h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="flex items-start space-x-3">
+                <div className="w-2 h-2 bg-[#43978D] rounded-full mt-2"></div>
+                <p className="text-gray-600">Proven track record with 435+ successful implementations</p>
+              </div>
+              <div className="flex items-start space-x-3">
+                <div className="w-2 h-2 bg-[#F9AD6A] rounded-full mt-2"></div>
+                <p className="text-gray-600">Custom solutions tailored to your specific business needs</p>
+              </div>
+              <div className="flex items-start space-x-3">
+                <div className="w-2 h-2 bg-[#D46C4E] rounded-full mt-2"></div>
+                <p className="text-gray-600">Rapid implementation with measurable ROI</p>
+              </div>
+              <div className="flex items-start space-x-3">
+                <div className="w-2 h-2 bg-[#264D59] rounded-full mt-2"></div>
+                <p className="text-gray-600">Ongoing support and training for your team</p>
               </div>
             </div>
           </div>
