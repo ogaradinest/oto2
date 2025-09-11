@@ -23,13 +23,11 @@ const Hero = () => {
           <div className="space-y-6 lg:space-y-8 text-center lg:text-left">
             <div className="space-y-4 lg:space-y-6">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-center">
-                <span className="text-[#F9E07F]">otomation</span>, at the center
+                <span className="text-[#F9E07F]">otomation</span>
                 <br />
-                of everything we do.
+                at the center of everything* we do.
                 <br />
-                <span className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl">apart from ping-pong.</span>
-                <br />
-                <span className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl text-[#F9AD6A]">that's still analog.</span>
+                <span className="text-lg sm:text-xl lg:text-2xl xl:text-3xl">*apart from ping-pong. that's still analog.</span>
               </h1>
             </div>
 
