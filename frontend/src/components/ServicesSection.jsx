@@ -117,24 +117,6 @@ const ServicesSection = () => {
             );
           })}
         </div>
-
-        {/* CTA Section */}
-        <div className="text-center mt-16">
-          <div className="bg-gradient-to-r from-[#43978D] to-[#264D59] rounded-3xl p-8 lg:p-12">
-            <h3 className="text-3xl lg:text-4xl font-bold text-white mb-4">
-              Ready to Transform Your Business?
-            </h3>
-            <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-              Let's discuss which automation solutions would have the biggest impact on your operations.
-            </p>
-            <button 
-              onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
-              className="bg-[#F9AD6A] text-[#264D59] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#F9E07F] transition-all duration-200 shadow-lg hover:shadow-xl"
-            >
-              Schedule a Consultation
-            </button>
-          </div>
-        </div>
       </div>
     </section>
   );
