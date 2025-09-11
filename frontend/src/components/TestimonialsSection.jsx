@@ -110,7 +110,7 @@ const TestimonialsSection = () => {
               onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
               className="bg-[#43978D] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#264D59] transition-all duration-200 shadow-lg hover:shadow-xl"
             >
-              Start Your Success Story
+              Let's talk
             </button>
           </div>
         </div>
