@@ -41,7 +41,7 @@ const ServicesSection = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-[#264D59] mb-6">
-            <span className="text-[#43978D]">otomation Solutions</span>
+            <span className="text-red-500">otomation</span> Solutions
           </h2>
         </div>
 
