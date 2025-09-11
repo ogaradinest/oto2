@@ -14,9 +14,9 @@ const StatsSection = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-            The best <span className="text-[#F9E07F]">automation systems</span>
+            The best <span className="text-[#F9E07F]">otomation systems</span>
             <br />
-            are built <span className="text-[#F9AD6A]">side by side.</span>
+            are working in sync. <span className="text-[#F9AD6A]">like owl's eyes.</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Our track record speaks for itself. Here's the impact we've delivered 
