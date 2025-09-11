@@ -23,7 +23,7 @@ const Hero = () => {
           <div className="space-y-6 lg:space-y-8 max-w-4xl">
             <div className="space-y-4 lg:space-y-6">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-center">
-                <span className="text-[#F9E07F]">otomation</span>
+                <span className="text-red-500">otomation</span>
                 <br />
                 at the center of everything* we do.
                 <br />
@@ -34,9 +34,9 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
                 onClick={scrollToContact}
-                className="bg-[#F9AD6A] text-[#264D59] px-6 lg:px-8 py-3 lg:py-4 rounded-lg font-semibold text-base lg:text-lg hover:bg-[#F9E07F] transition-all duration-200 flex items-center justify-center gap-2 group"
+                className="bg-red-500 text-white px-6 lg:px-8 py-3 lg:py-4 rounded-lg font-semibold text-base lg:text-lg hover:bg-red-600 transition-all duration-200 flex items-center justify-center gap-2 group"
               >
-                Call us. Now (or later)
+                Let's talk
                 <ArrowRight className="group-hover:translate-x-1 transition-transform duration-200" size={20} />
               </button>
             </div>
@@ -48,8 +48,8 @@ const Hero = () => {
                   <Zap className="text-[#264D59]" size={20} />
                 </div>
                 <div className="text-center sm:text-left">
-                  <h3 className="font-semibold text-base lg:text-lg">Rapid Results</h3>
-                  <p className="text-gray-300 text-xs lg:text-sm">Implementation in weeks, not months</p>
+                  <h3 className="font-semibold text-base lg:text-lg">FAST</h3>
+                  <p className="text-gray-300 text-xs lg:text-sm">Implementation in weeks</p>
                 </div>
               </div>
               
@@ -58,8 +58,8 @@ const Hero = () => {
                   <Target className="text-[#264D59]" size={20} />
                 </div>
                 <div className="text-center sm:text-left">
-                  <h3 className="font-semibold text-base lg:text-lg">Proven Process</h3>
-                  <p className="text-gray-300 text-xs lg:text-sm">435+ successful implementations</p>
+                  <h3 className="font-semibold text-base lg:text-lg">PROVEN</h3>
+                  <p className="text-gray-300 text-xs lg:text-sm">21 successful implementations</p>
                 </div>
               </div>
               
@@ -68,8 +68,8 @@ const Hero = () => {
                   <Cog className="text-white" size={20} />
                 </div>
                 <div className="text-center sm:text-left">
-                  <h3 className="font-semibold text-base lg:text-lg">Custom Solutions</h3>
-                  <p className="text-gray-300 text-xs lg:text-sm">Tailored to your business needs</p>
+                  <h3 className="font-semibold text-base lg:text-lg">ROI</h3>
+                  <p className="text-gray-300 text-xs lg:text-sm">+$250k savings delivered</p>
                 </div>
               </div>
             </div>
