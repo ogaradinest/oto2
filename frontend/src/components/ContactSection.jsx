@@ -117,7 +117,7 @@ const ContactSection = () => {
                     </div>
                   </div>
 
-                  {/* Company Size and Revenue */}
+                  {/* Company Size and Services */}
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <label className="block text-sm font-semibold text-[#264D59] mb-2">
@@ -127,7 +127,7 @@ const ContactSection = () => {
                         name="companySize"
                         value={formData.companySize}
                         onChange={handleInputChange}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43978D] focus:border-transparent transition-all duration-200"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0000FF] focus:border-transparent transition-all duration-200"
                       >
                         <option value="">Select company size</option>
                         <option value="Less than 20">Less than 20</option>
@@ -139,52 +139,13 @@ const ContactSection = () => {
                     </div>
                     <div>
                       <label className="block text-sm font-semibold text-[#264D59] mb-2">
-                        Annual Revenue
-                      </label>
-                      <select
-                        name="revenue"
-                        value={formData.revenue}
-                        onChange={handleInputChange}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43978D] focus:border-transparent transition-all duration-200"
-                      >
-                        <option value="">Select revenue range</option>
-                        <option value="Less than $100K">Less than $100K</option>
-                        <option value="$100K-$500K">$100K-$500K</option>
-                        <option value="$500K-$1M">$500K-$1M</option>
-                        <option value="$1M-$2M">$1M-$2M</option>
-                        <option value="More than $2M">More than $2M</option>
-                      </select>
-                    </div>
-                  </div>
-
-                  {/* Budget and Services */}
-                  <div className="grid md:grid-cols-2 gap-6">
-                    <div>
-                      <label className="block text-sm font-semibold text-[#264D59] mb-2">
-                        Project Budget
-                      </label>
-                      <select
-                        name="budget"
-                        value={formData.budget}
-                        onChange={handleInputChange}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43978D] focus:border-transparent transition-all duration-200"
-                      >
-                        <option value="">Select budget range</option>
-                        <option value="Less than $10K">Less than $10K</option>
-                        <option value="$10K-$50K">$10K-$50K</option>
-                        <option value="$50K-$100K">$50K-$100K</option>
-                        <option value="More than $100K">More than $100K</option>
-                      </select>
-                    </div>
-                    <div>
-                      <label className="block text-sm font-semibold text-[#264D59] mb-2">
                         Services of Interest
                       </label>
                       <select
                         name="services"
                         value={formData.services}
                         onChange={handleInputChange}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43978D] focus:border-transparent transition-all duration-200"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0000FF] focus:border-transparent transition-all duration-200"
                       >
                         <option value="">Select service</option>
                         <option value="Business Process Automation">Business Process Automation</option>
