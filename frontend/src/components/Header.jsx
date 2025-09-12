@@ -20,14 +20,14 @@ const Header = () => {
   return (
     <header className="bg-white shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Combined Logo and Header Image Section */}
+        {/* Combined Logo and Header Image Section - Full Width */}
         <div className="relative py-8 sm:py-10 lg:py-12">
-          {/* Combined logo and header image */}
-          <div className="flex justify-center">
+          {/* Combined logo and header image - full width */}
+          <div className="flex justify-center w-full">
             <img 
               src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/l78jfkfh_logo_header.png" 
               alt="otobrothers" 
-              className="h-20 sm:h-24 md:h-28 lg:h-32 w-auto object-contain"
+              className="w-full max-w-none h-20 sm:h-24 md:h-28 lg:h-32 object-cover"
             />
           </div>
         </div>
