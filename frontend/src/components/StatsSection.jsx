@@ -16,7 +16,7 @@ const StatsSection = () => {
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
             The best <span className="text-[#0000FF]">otomation systems</span>
             <br />
-            are working in sync. like owl's eyes.{" "}
+            are working in sync. Like owl's eyes.{" "}
             <img 
               src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/zuonih79_logo_mini.png" 
               alt="owl eyes" 
