@@ -26,12 +26,12 @@ const Header = () => {
             />
           </div>
           
-          {/* Header image positioned in upper right with equal width */}
+          {/* Header image positioned in upper right with 20% smaller size */}
           <div className="absolute top-8 sm:top-10 lg:top-12 right-0 z-0 hidden sm:block">
             <img 
               src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/h3r662zx_header3.png" 
               alt="otobrothers header" 
-              className="h-20 sm:h-24 md:h-28 lg:h-32 w-auto object-contain opacity-70"
+              className="h-16 sm:h-19 md:h-22 lg:h-26 w-auto object-contain opacity-70"
             />
           </div>
         </div>
