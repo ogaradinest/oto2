@@ -31,6 +31,13 @@ const ContactSection = () => {
   return (
     <section id="contact" className="py-20 bg-gradient-to-br from-gray-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Moved CTA Title */}
+        <div className="text-center mb-8">
+          <h3 className="text-3xl font-bold text-[#264D59] mb-4">
+            Ready to Join Our Success Stories?
+          </h3>
+        </div>
+
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-[#264D59] mb-6">
