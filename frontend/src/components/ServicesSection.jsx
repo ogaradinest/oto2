@@ -11,13 +11,13 @@ const ServicesSection = () => {
 
   const getServiceIcon = (category) => {
     const iconMap = {
-      "AI-Powered Business Process Automation": Zap,
-      "Sales & Marketing Automation": Users,
+      "AI-Powered Business Process": Zap,
+      "Sales & Marketing": Users,
       "Customer Experience & Support": HeadphonesIcon,
       "Finance & Operations": Calculator,
-      "HR & People Ops Automation": UserCheck,
-      "Data & Analytics Automation": BarChart3,
-      "Industry-Specific Automations": Building
+      "HR & People Ops": UserCheck,
+      "Data & Analytics": BarChart3,
+      "Industry-Specific": Building
     };
     return iconMap[category] || Zap;
   };
