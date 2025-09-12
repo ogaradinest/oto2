@@ -9,11 +9,11 @@ const TestimonialsSection = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-[#264D59] mb-6">
-            Customers who <span className="text-[#43978D]">trusted otobrothers</span>
+            Customers who <span className="text-[#0000FF]">trusted otobrothers</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Don't just take our word for it. Here's what business leaders say about 
-            their automation transformation journey with otobrothers.
+            Don't just take our word for it. Here's what businesses leaders like you say about 
+            their transformation work with otobrothers.
           </p>
         </div>
 
