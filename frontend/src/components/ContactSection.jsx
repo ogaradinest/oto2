@@ -174,7 +174,7 @@ const ContactSection = () => {
                   {/* Submit Button */}
                   <button
                     type="submit"
-                    className="w-full bg-gradient-to-r from-[#43978D] to-[#264D59] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-[#264D59] hover:to-[#43978D] transition-all duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl"
+                    className="w-full bg-gradient-to-r from-[#0000FF] to-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-blue-700 hover:to-[#0000FF] transition-all duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl"
                   >
                     Send Inquiry
                     <Send size={20} />
