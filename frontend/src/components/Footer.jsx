@@ -22,13 +22,13 @@ const Footer = () => {
           <div className="lg:col-span-2 space-y-6">
             <div className="flex items-center space-x-4">
               <img 
-                src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/1uo09bs0_logo%20%282%29.png" 
+                src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/qru9a8vm_logo3.png" 
                 alt="otobrothers" 
                 className="h-12 w-auto filter brightness-150 contrast-125"
               />
             </div>
             <p className="text-gray-300 text-lg max-w-2xl">
-              We are sharp, good and determined to create efficient processes. 
+              We are sharp, good and determined to hunt efficiencies for you. 
               The Owls of the business world.
             </p>
             <div className="flex space-x-4">
