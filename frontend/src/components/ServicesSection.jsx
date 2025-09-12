@@ -36,12 +36,12 @@ const ServicesSection = () => {
   };
 
   return (
-    <section id="services" className="py-20 bg-gray-50">
+    <section id="solutions" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-[#264D59] mb-6">
-            <span className="text-red-500">otomation</span> Solutions
+            <span className="text-[#0000FF]">otomation</span> Solutions
           </h2>
         </div>
 
