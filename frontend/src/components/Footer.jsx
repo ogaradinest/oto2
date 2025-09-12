@@ -20,21 +20,26 @@ const Footer = () => {
         <div className="py-16 grid lg:grid-cols-3 gap-12">
           {/* Brand Section */}
           <div className="lg:col-span-2 space-y-6">
-            <div className="flex items-center space-x-4">
+            <div className="flex flex-col items-center space-y-4">
+              <img 
+                src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/qru9a8vm_logo3.png" 
+                alt="otobrothers logo" 
+                className="h-16 w-auto"
+              />
               <img 
                 src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/l78jfkfh_logo_header.png" 
                 alt="otobrothers" 
                 className="h-12 w-auto filter brightness-150 contrast-125"
               />
             </div>
-            <p className="text-gray-300 text-lg max-w-2xl">
+            <p className="text-gray-300 text-lg max-w-2xl text-center lg:text-left">
               We are sharp, good and determined.
               <br />
               We see efficiencies in the Dark Forest of Complicated Business Processes.
               <br />
               The Owls of the business world.
             </p>
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 justify-center lg:justify-start">
               <a 
                 href="https://linkedin.com/company/otobrothers" 
                 target="_blank" 
