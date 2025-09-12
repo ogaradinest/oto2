@@ -105,14 +105,7 @@ const ServicesSection = () => {
                   </div>
                 </div>
 
-                {/* Preview when collapsed */}
-                {!isExpanded && (
-                  <div className="p-6 pt-0">
-                    <p className="text-gray-600 text-sm">
-                      Click to explore {service.services.length} automation solutions in this category
-                    </p>
-                  </div>
-                )}
+
               </div>
             );
           })}
