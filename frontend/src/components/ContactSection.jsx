@@ -191,43 +191,45 @@ const ContactSection = () => {
             </div>
           </div>
 
-          {/* Office Locations */}
+          {/* Office Locations - Equal height to contact form */}
           <div className="space-y-8">
-            <div className="bg-white rounded-3xl shadow-xl p-8">
-              <h3 className="text-2xl font-bold text-[#264D59] mb-6">Our Offices</h3>
-              
-              {/* Bucharest Office */}
-              <div className="mb-8 p-6 bg-gradient-to-br from-[#43978D] to-[#264D59] rounded-2xl text-white">
-                <div className="flex items-center mb-4">
-                  <MapPin className="text-[#F9E07F]" size={24} />
-                  <h4 className="text-xl font-bold ml-3">Bucharest, Romania</h4>
-                </div>
-                <div className="space-y-3">
-                  <div className="flex items-center">
-                    <Phone className="text-[#F9AD6A]" size={16} />
-                    <span className="ml-3">+40 722 465 536</span>
+            <div className="bg-white rounded-3xl shadow-xl p-8 h-full flex flex-col justify-between">
+              <div>
+                <h3 className="text-2xl font-bold text-[#264D59] mb-6">Our Offices</h3>
+                
+                {/* Bucharest Office */}
+                <div className="mb-8 p-6 bg-gradient-to-br from-[#43978D] to-[#264D59] rounded-2xl text-white">
+                  <div className="flex items-center mb-4">
+                    <MapPin className="text-[#F9E07F]" size={24} />
+                    <h4 className="text-xl font-bold ml-3">Bucharest, Romania</h4>
                   </div>
-                  <div className="flex items-center">
-                    <Mail className="text-[#F9AD6A]" size={16} />
-                    <span className="ml-3">cris@otobrothers.com</span>
+                  <div className="space-y-3">
+                    <div className="flex items-center">
+                      <Phone className="text-[#F9AD6A]" size={16} />
+                      <span className="ml-3">+40 722 465 536</span>
+                    </div>
+                    <div className="flex items-center">
+                      <Mail className="text-[#F9AD6A]" size={16} />
+                      <span className="ml-3">cris@otobrothers.com</span>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              {/* London Office */}
-              <div className="p-6 bg-gradient-to-br from-[#F9AD6A] to-[#D46C4E] rounded-2xl text-white">
-                <div className="flex items-center mb-4">
-                  <MapPin className="text-white" size={24} />
-                  <h4 className="text-xl font-bold ml-3">London, United Kingdom</h4>
-                </div>
-                <div className="space-y-3">
-                  <div className="flex items-center">
-                    <Phone className="text-gray-100" size={16} />
-                    <span className="ml-3">+44 7577 774 805</span>
+                {/* London Office */}
+                <div className="p-6 bg-gradient-to-br from-[#F9AD6A] to-[#D46C4E] rounded-2xl text-white">
+                  <div className="flex items-center mb-4">
+                    <MapPin className="text-white" size={24} />
+                    <h4 className="text-xl font-bold ml-3">London, United Kingdom</h4>
                   </div>
-                  <div className="flex items-center">
-                    <Mail className="text-gray-100" size={16} />
-                    <span className="ml-3">dan@otobrothers.com</span>
+                  <div className="space-y-3">
+                    <div className="flex items-center">
+                      <Phone className="text-gray-100" size={16} />
+                      <span className="ml-3">+44 7577 774 805</span>
+                    </div>
+                    <div className="flex items-center">
+                      <Mail className="text-gray-100" size={16} />
+                      <span className="ml-3">dan@otobrothers.com</span>
+                    </div>
                   </div>
                 </div>
               </div>
