@@ -14,14 +14,15 @@ const StatsSection = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-            The best <span className="text-red-500">otomation systems</span>
+            The best <span className="text-[#0000FF]">otomation systems</span>
             <br />
-            are working in sync. <span className="text-[#F9AD6A]">like owl's eyes.</span>
+            are working in sync. like owl's eyes.{" "}
+            <img 
+              src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/zuonih79_logo_mini.png" 
+              alt="owl eyes" 
+              className="inline-block h-8 w-auto ml-2"
+            />
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Our track record speaks for itself. Here's the impact we've delivered 
-            for businesses just like yours.
-          </p>
         </div>
 
         {/* Stats Grid */}
