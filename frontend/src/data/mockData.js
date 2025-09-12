@@ -119,10 +119,10 @@ export const mockTestimonials = [
 ];
 
 export const mockClients = [
-  { name: "TechFlow Solutions", logo: "https://via.placeholder.com/120x60/43978D/white?text=TechFlow" },
-  { name: "Global Logistics", logo: "https://via.placeholder.com/120x60/F9AD6A/264D59?text=GlobalLog" },
-  { name: "Digital Dynamics", logo: "https://via.placeholder.com/120x60/264D59/white?text=DigitalDyn" },
-  { name: "InnovateCorp", logo: "https://via.placeholder.com/120x60/D46C4E/white?text=Innovate" },
-  { name: "FutureWorks", logo: "https://via.placeholder.com/120x60/F9E07F/264D59?text=FutureWorks" },
-  { name: "AutoScale", logo: "https://via.placeholder.com/120x60/43978D/white?text=AutoScale" }
+  { name: "Microsoft", logo: "https://logo.clearbit.com/microsoft.com" },
+  { name: "Shopify", logo: "https://logo.clearbit.com/shopify.com" },
+  { name: "Slack", logo: "https://logo.clearbit.com/slack.com" },
+  { name: "Zoom", logo: "https://logo.clearbit.com/zoom.us" },
+  { name: "HubSpot", logo: "https://logo.clearbit.com/hubspot.com" },
+  { name: "Salesforce", logo: "https://logo.clearbit.com/salesforce.com" }
 ];
