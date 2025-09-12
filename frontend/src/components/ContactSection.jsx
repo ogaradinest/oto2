@@ -237,26 +237,26 @@ const ContactSection = () => {
           </div>
         </div>
 
-        {/* Why Choose Us - Moved after contact form */}
+        {/* Why Choose Us - Full width with new content */}
         <div className="mt-16">
-          <div className="bg-white rounded-3xl shadow-xl p-8 max-w-4xl mx-auto">
+          <div className="bg-white rounded-3xl shadow-xl p-8 w-full">
             <h3 className="text-2xl font-bold text-[#264D59] mb-6 text-center">Why Choose otobrothers?</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="flex items-start space-x-3">
-                <div className="w-2 h-2 bg-[#43978D] rounded-full mt-2"></div>
-                <p className="text-gray-600">Proven track record with 435+ successful implementations</p>
+                <div className="w-2 h-2 bg-[#0000FF] rounded-full mt-2 flex-shrink-0"></div>
+                <p className="text-gray-600 font-bold">Proven track record with 21 successful implementations, delivering +quarter of a million dollars in business revenue.</p>
               </div>
               <div className="flex items-start space-x-3">
-                <div className="w-2 h-2 bg-[#F9AD6A] rounded-full mt-2"></div>
-                <p className="text-gray-600">Custom solutions tailored to your specific business needs</p>
+                <div className="w-2 h-2 bg-[#0000FF] rounded-full mt-2 flex-shrink-0"></div>
+                <p className="text-gray-600 font-bold">Straight talkers and common sense because business talk is serious but it shouldn't be boring.</p>
               </div>
               <div className="flex items-start space-x-3">
-                <div className="w-2 h-2 bg-[#D46C4E] rounded-full mt-2"></div>
-                <p className="text-gray-600">Rapid implementation with measurable ROI</p>
+                <div className="w-2 h-2 bg-[#0000FF] rounded-full mt-2 flex-shrink-0"></div>
+                <p className="text-gray-600 font-bold">We leave customers' teams fully trained and with tools to experiment their own otomations.</p>
               </div>
               <div className="flex items-start space-x-3">
-                <div className="w-2 h-2 bg-[#264D59] rounded-full mt-2"></div>
-                <p className="text-gray-600">Ongoing support and training for your team</p>
+                <div className="w-2 h-2 bg-[#0000FF] rounded-full mt-2 flex-shrink-0"></div>
+                <p className="text-gray-600 font-bold">+50 years experience combined in Sales, Marketing, Advertising and Strategy; with Capital letters because we know what are we talking about.</p>
               </div>
             </div>
           </div>
