@@ -48,13 +48,6 @@ const ProcessSection = () => {
                 <div className="absolute top-4 left-4 w-16 h-16 bg-white rounded-full blur-xl"></div>
                 <div className="absolute bottom-4 right-4 w-12 h-12 bg-white rounded-full blur-lg"></div>
               </div>
-              
-              {/* Step Number */}
-              <div className="absolute top-4 right-4 bg-white bg-opacity-20 backdrop-blur-sm rounded-full w-10 h-10 flex items-center justify-center">
-                <span className="text-white font-bold text-sm">
-                  {index + 1}
-                </span>
-              </div>
 
               {/* Icon */}
               <div className="relative z-10 mb-6">
