@@ -242,26 +242,26 @@ const ContactSection = () => {
           </div>
         </div>
 
-        {/* Why Choose Us - Full width with new content */}
+        {/* Why Choose Us - Full width with dark grey background */}
         <div className="mt-16">
-          <div className="bg-white rounded-3xl shadow-xl p-8 w-full">
-            <h3 className="text-2xl font-bold text-[#264D59] mb-6 text-center">Why Choose otobrothers?</h3>
+          <div className="bg-gray-800 rounded-3xl shadow-xl p-8 w-full">
+            <h3 className="text-2xl font-bold text-white mb-6 text-center">Why Choose otobrothers?</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-[#0000FF] rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-gray-600 font-bold">Proven track record with 21 successful implementations, delivering +quarter of a million dollars in business revenue.</p>
+                <p className="text-gray-300 font-bold">Proven track record with 21 successful implementations, delivering +quarter of a million dollars in business revenue.</p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-[#0000FF] rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-gray-600 font-bold">Straight talkers and common sense because business talk is serious but it shouldn't be boring.</p>
+                <p className="text-gray-300 font-bold">Straight talkers and common sense because business talk is serious but it shouldn't be boring.</p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-[#0000FF] rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-gray-600 font-bold">We leave customers' teams fully trained and with tools to experiment their own otomations.</p>
+                <p className="text-gray-300 font-bold">We leave customers' teams fully trained and with tools to experiment their own otomations.</p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-[#0000FF] rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-gray-600 font-bold">+50 years experience combined in Sales, Marketing, Advertising and Strategy; with Capital letters because we know what are we talking about.</p>
+                <p className="text-gray-300 font-bold">+50 years experience combined in Sales, Marketing, Advertising and Strategy; with Capital letters because we know what are we talking about.</p>
               </div>
             </div>
           </div>
