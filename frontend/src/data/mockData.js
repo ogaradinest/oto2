@@ -1,7 +1,7 @@
 export const mockServices = [
   {
     id: 1,
-    category: "AI-Powered Business Process Automation",
+    category: "AI-Powered Business Process",
     icon: "🔹",
     services: [
       "Workflow Automation: Automating repetitive processes (approvals, onboarding, compliance checks, document routing)",
@@ -12,7 +12,7 @@ export const mockServices = [
   },
   {
     id: 2,
-    category: "Sales & Marketing Automation",
+    category: "Sales & Marketing",
     icon: "🔹",
     services: [
       "AI Lead Scoring & Qualification: Predictive scoring models to prioritize high-value leads",
@@ -46,7 +46,7 @@ export const mockServices = [
   },
   {
     id: 5,
-    category: "HR & People Ops Automation",
+    category: "HR & People Ops",
     icon: "🔹",
     services: [
       "AI Recruitment Assistants: Automated CV screening, candidate ranking, and skill matching",
@@ -57,7 +57,7 @@ export const mockServices = [
   },
   {
     id: 6,
-    category: "Data & Analytics Automation",
+    category: "Data & Analytics",
     icon: "🔹",
     services: [
       "Real-Time Business Dashboards: Automated reporting with natural language queries",
