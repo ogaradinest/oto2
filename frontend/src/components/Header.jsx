@@ -25,7 +25,7 @@ const Header = () => {
           {/* Combined logo and header image */}
           <div className="flex justify-center">
             <img 
-              src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/l78jfkfh_logo_header.png" 
+              src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/ivnkooon_logo_header.png" 
               alt="otobrothers" 
               className="h-20 sm:h-24 md:h-28 lg:h-32 w-auto object-contain"
             />
