@@ -80,7 +80,7 @@ const ProcessSection = () => {
         <div className="text-center">
           <button 
             onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
-            className="bg-red-500 text-white px-6 lg:px-8 py-3 lg:py-4 rounded-lg font-semibold text-base lg:text-lg hover:bg-red-600 transition-all duration-200 flex items-center gap-2 group mx-auto"
+            className="bg-[#0000FF] text-white px-6 lg:px-8 py-3 lg:py-4 rounded-lg font-semibold text-base lg:text-lg hover:bg-blue-700 transition-all duration-200 flex items-center gap-2 group mx-auto"
           >
             Let's talk
             <ArrowRight className="group-hover:translate-x-1 transition-transform duration-200" size={18} />
@@ -89,11 +89,8 @@ const ProcessSection = () => {
 
         {/* Bottom Message */}
         <div className="text-center mt-16 lg:mt-20 pt-8 lg:pt-12 border-t border-gray-200">
-          <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#264D59] mb-3 lg:mb-4">
-            We don't sell <span className="text-red-500">otomation.</span>
-          </h3>
           <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#264D59]">
-            We sell <span className="text-[#43978D]">ROI.</span>
+            We sell the ROI of our <span className="text-[#0000FF]">otomation</span>
           </h3>
         </div>
       </div>
