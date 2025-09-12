@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowRight, Zap, Target, Cog } from "lucide-react";
+import { ArrowRight, Zap, Target, DollarSign } from "lucide-react";
 
 const Hero = () => {
   const scrollToContact = () => {
