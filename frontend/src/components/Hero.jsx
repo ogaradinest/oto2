@@ -27,7 +27,7 @@ const Hero = () => {
                 <br />
                 at the center of everything* we do.
                 <br />
-                <span className="text-lg sm:text-xl lg:text-2xl xl:text-3xl">*apart from ping-pong. that's still analog.</span>
+                <span className="text-lg sm:text-xl lg:text-2xl xl:text-3xl font-normal">*apart from ping-pong. that's still analog.</span>
               </h1>
             </div>
 
