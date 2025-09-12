@@ -166,7 +166,7 @@ const ContactSection = () => {
                       value={formData.message}
                       onChange={handleInputChange}
                       rows={4}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#43978D] focus:border-transparent transition-all duration-200 resize-none"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0000FF] focus:border-transparent transition-all duration-200 resize-none"
                       placeholder="Tell us more about your automation needs and current challenges..."
                     />
                   </div>
