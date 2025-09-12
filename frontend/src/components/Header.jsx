@@ -83,26 +83,26 @@ const Header = () => {
             <div className="md:hidden pt-4 border-t border-gray-100 mt-3">
               <div className="flex flex-col space-y-4">
                 <button 
-                  onClick={() => scrollToSection('services')}
-                  className="text-gray-700 hover:text-[#43978D] transition-colors duration-200 font-medium text-left"
+                  onClick={() => scrollToSection('solutions')}
+                  className="text-gray-700 hover:text-[#0000FF] transition-colors duration-200 font-medium text-left"
                 >
-                  Services
+                  Solutions
                 </button>
                 <button 
                   onClick={() => scrollToSection('process')}
-                  className="text-gray-700 hover:text-[#43978D] transition-colors duration-200 font-medium text-left"
+                  className="text-gray-700 hover:text-[#0000FF] transition-colors duration-200 font-medium text-left"
                 >
                   Process
                 </button>
                 <button 
                   onClick={() => scrollToSection('about')}
-                  className="text-gray-700 hover:text-[#43978D] transition-colors duration-200 font-medium text-left"
+                  className="text-gray-700 hover:text-[#0000FF] transition-colors duration-200 font-medium text-left"
                 >
                   About
                 </button>
                 <button 
                   onClick={() => scrollToSection('contact')}
-                  className="bg-red-500 text-white px-6 py-2 rounded-lg hover:bg-red-600 transition-colors duration-200 font-medium text-left w-fit"
+                  className="bg-[#0000FF] text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200 font-medium text-left w-fit"
                 >
                   Let's talk
                 </button>
