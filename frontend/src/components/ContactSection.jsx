@@ -8,8 +8,6 @@ const ContactSection = () => {
     role: '',
     company: '',
     companySize: '',
-    revenue: '',
-    budget: '',
     services: '',
     message: ''
   });
