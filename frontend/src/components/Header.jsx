@@ -42,26 +42,26 @@ const Header = () => {
             {/* Desktop Navigation */}
             <nav className="hidden md:flex space-x-4 lg:space-x-8 ml-auto">
               <button 
-                onClick={() => scrollToSection('services')}
-                className="text-gray-700 hover:text-[#43978D] transition-colors duration-200 font-medium text-sm lg:text-base"
+                onClick={() => scrollToSection('solutions')}
+                className="text-gray-700 hover:text-[#0000FF] transition-colors duration-200 font-medium text-sm lg:text-base"
               >
-                Services
+                Solutions
               </button>
               <button 
                 onClick={() => scrollToSection('process')}
-                className="text-gray-700 hover:text-[#43978D] transition-colors duration-200 font-medium text-sm lg:text-base"
+                className="text-gray-700 hover:text-[#0000FF] transition-colors duration-200 font-medium text-sm lg:text-base"
               >
                 Process
               </button>
               <button 
                 onClick={() => scrollToSection('about')}
-                className="text-gray-700 hover:text-[#43978D] transition-colors duration-200 font-medium text-sm lg:text-base"
+                className="text-gray-700 hover:text-[#0000FF] transition-colors duration-200 font-medium text-sm lg:text-base"
               >
                 About
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}
-                className="bg-red-500 text-white px-4 lg:px-6 py-2 rounded-lg hover:bg-red-600 transition-colors duration-200 font-medium text-sm lg:text-base"
+                className="bg-[#0000FF] text-white px-4 lg:px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200 font-medium text-sm lg:text-base"
               >
                 Let's talk
               </button>
