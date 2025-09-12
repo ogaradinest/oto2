@@ -7,7 +7,7 @@ const Header = () => {
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      const headerHeight = 120; // Account for sticky header
+      const headerHeight = 160; // Increased offset to show section titles
       const elementPosition = element.offsetTop - headerHeight;
       window.scrollTo({
         top: elementPosition,
