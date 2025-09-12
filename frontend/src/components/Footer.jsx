@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="lg:col-span-2 space-y-6">
             <div className="flex items-center space-x-4">
               <img 
-                src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/qru9a8vm_logo3.png" 
+                src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/l78jfkfh_logo_header.png" 
                 alt="otobrothers" 
                 className="h-12 w-auto filter brightness-150 contrast-125"
               />
