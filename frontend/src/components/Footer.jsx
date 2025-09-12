@@ -27,14 +27,14 @@ const Footer = () => {
                 className="h-16 w-auto"
               />
             </div>
-            <p className="text-gray-300 text-lg max-w-2xl text-center lg:text-left">
+            <p className="text-gray-300 text-lg max-w-2xl text-left">
               We are sharp, good and determined.
               <br />
               We see efficiencies in the Dark Forest of Complicated Business Processes.
               <br />
               The Owls of the business world.
             </p>
-            <div className="flex space-x-4 justify-center lg:justify-start">
+            <div className="flex space-x-4 justify-start">
               <a 
                 href="https://linkedin.com/company/otobrothers" 
                 target="_blank" 
