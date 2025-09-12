@@ -40,9 +40,16 @@ const ServicesSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-[#264D59] mb-6">
-            <span className="text-[#0000FF]">otomation</span> Solutions
-          </h2>
+          <div className="flex items-center justify-center gap-4 mb-6">
+            <img 
+              src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/nvgzqmha_logo_mini.png" 
+              alt="otobrothers mini logo" 
+              className="h-8 w-auto object-contain"
+            />
+            <h2 className="text-4xl lg:text-5xl font-bold text-[#264D59]">
+              The best <span className="text-[#0000FF]">otomation</span> Solutions are working in sync. Like owl's eyes.
+            </h2>
+          </div>
         </div>
 
         {/* Services Grid */}
