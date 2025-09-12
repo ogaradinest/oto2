@@ -20,16 +20,11 @@ const Footer = () => {
         <div className="py-16 grid lg:grid-cols-3 gap-12">
           {/* Brand Section */}
           <div className="lg:col-span-2 space-y-6">
-            <div className="flex flex-col items-center space-y-4">
+            <div className="flex justify-start">
               <img 
-                src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/qru9a8vm_logo3.png" 
+                src="https://customer-assets.emergentagent.com/job_523ddc15-12aa-4a04-8ea3-751c2ec002de/artifacts/a6i6e90a_logo.png" 
                 alt="otobrothers logo" 
                 className="h-16 w-auto"
-              />
-              <img 
-                src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/l78jfkfh_logo_header.png" 
-                alt="otobrothers" 
-                className="h-12 w-auto filter brightness-150 contrast-125"
               />
             </div>
             <p className="text-gray-300 text-lg max-w-2xl text-center lg:text-left">
