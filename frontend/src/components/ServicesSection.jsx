@@ -47,7 +47,7 @@ const ServicesSection = () => {
               className="h-8 w-auto object-contain"
             />
             <h2 className="text-4xl lg:text-5xl font-bold text-[#264D59]">
-              The best <span className="text-[#0000FF]">otomation</span> Solutions are working in sync. Like owl's eyes.
+              The best <span className="text-[#0000FF]">otomation</span> <span className="text-[#0000FF]">solutions</span> are working in sync. Like owl's eyes.
             </h2>
           </div>
         </div>
