@@ -38,16 +38,16 @@ const Header = () => {
             {/* Desktop Navigation */}
             <nav className="hidden md:flex space-x-4 lg:space-x-8 ml-auto">
               <button 
-                onClick={() => scrollToSection('solutions')}
-                className="text-gray-700 hover:text-[#0000FF] transition-colors duration-200 font-medium text-sm lg:text-base"
-              >
-                Solutions
-              </button>
-              <button 
                 onClick={() => scrollToSection('process')}
                 className="text-gray-700 hover:text-[#0000FF] transition-colors duration-200 font-medium text-sm lg:text-base"
               >
                 Process
+              </button>
+              <button 
+                onClick={() => scrollToSection('solutions')}
+                className="text-gray-700 hover:text-[#0000FF] transition-colors duration-200 font-medium text-sm lg:text-base"
+              >
+                Solutions
               </button>
               <button 
                 onClick={() => scrollToSection('about')}
