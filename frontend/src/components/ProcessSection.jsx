@@ -79,13 +79,6 @@ const ProcessSection = () => {
             <ArrowRight className="group-hover:translate-x-1 transition-transform duration-200" size={18} />
           </button>
         </div>
-
-        {/* Bottom Message */}
-        <div className="text-center mt-16 lg:mt-20 pt-8 lg:pt-12 border-t border-gray-200">
-          <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#264D59]">
-            We sell the ROI of our <span className="text-[#0000FF]">otomation</span>
-          </h3>
-        </div>
       </div>
     </section>
   );
