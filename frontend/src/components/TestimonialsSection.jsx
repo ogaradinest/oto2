@@ -62,7 +62,7 @@ const TestimonialsSection = () => {
         {/* Client Logos */}
         <div className="border-t border-gray-200 pt-16">
           <div className="text-center mb-12">
-            <h3 className="text-2xl font-bold text-[#264D59] mb-4">
+            <h3 className="text-4xl lg:text-5xl font-bold text-[#264D59] mb-4">
               Trusted by Industry Leaders
             </h3>
             <p className="text-gray-600">
@@ -94,21 +94,6 @@ const TestimonialsSection = () => {
                 </div>
               ))}
             </div>
-          </div>
-        </div>
-
-        {/* CTA */}
-        <div className="text-center mt-16">
-          <div className="bg-gray-50 rounded-2xl p-8 lg:p-12">
-            <h3 className="text-3xl font-bold text-[#264D59] mb-4">
-              Ready to Join Our Success Stories?
-            </h3>
-            <button 
-              onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
-              className="bg-[#0000FF] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl"
-            >
-              Let's talk
-            </button>
           </div>
         </div>
       </div>
