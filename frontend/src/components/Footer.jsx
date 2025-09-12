@@ -28,7 +28,10 @@ const Footer = () => {
               />
             </div>
             <p className="text-gray-300 text-lg max-w-2xl">
-              We are sharp, good and determined to hunt efficiencies for you. 
+              We are sharp, good and determined.
+              <br />
+              We see efficiencies in the Dark Forest of Complicated Business Processes.
+              <br />
               The Owls of the business world.
             </p>
             <div className="flex space-x-4">
