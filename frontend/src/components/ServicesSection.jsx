@@ -71,11 +71,11 @@ const ServicesSection = () => {
                         {service.category}
                       </h3>
                     </div>
-                    <div className="bg-white bg-opacity-20 p-2 rounded-lg backdrop-blur-sm">
+                    <div className="bg-white bg-opacity-30 p-3 rounded-xl backdrop-blur-sm hover:bg-opacity-40 transition-all duration-200">
                       {isExpanded ? (
-                        <ChevronUp className="text-white" size={20} />
+                        <ChevronUp className="text-white" size={24} />
                       ) : (
-                        <ChevronDown className="text-white" size={20} />
+                        <ChevronDown className="text-white" size={24} />
                       )}
                     </div>
                   </div>
