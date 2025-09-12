@@ -70,13 +70,13 @@ export const mockServices = [
 
 export const mockStats = [
   {
-    number: "435+",
+    number: "21+",
     label: "Automation Opportunities Identified",
     description: "High-impact automation solutions mapped for businesses"
   },
   {
-    number: "17M+",
-    label: "Hours Saved Annually",
+    number: "+$250k",
+    label: "Saved",
     description: "Through our automation implementations"
   },
   {
