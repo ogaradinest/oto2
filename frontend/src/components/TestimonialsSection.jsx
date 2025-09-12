@@ -67,7 +67,12 @@ const TestimonialsSection = () => {
         {/* Client Logos */}
         <div className="border-t border-gray-200 pt-16">
           <div className="text-center mb-12">
-            <h3 className="text-4xl lg:text-5xl font-bold text-[#264D59] mb-4">
+            <h3 className="text-4xl lg:text-5xl font-bold text-[#264D59] mb-4 flex items-center justify-center">
+              <img 
+                src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/zuonih79_logo_mini.png" 
+                alt="owl mini" 
+                className="h-8 lg:h-10 w-auto mr-4"
+              />
               Trusted by Industry Leaders
             </h3>
             <p className="text-gray-600">
