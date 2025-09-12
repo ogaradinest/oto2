@@ -13,7 +13,12 @@ const StatsSection = () => {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-8">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-6">
+          <h2 className="text-4xl lg:text-5xl font-bold mb-6 flex items-center justify-center">
+            <img 
+              src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/zuonih79_logo_mini.png" 
+              alt="owl mini" 
+              className="h-8 lg:h-10 w-auto mr-4"
+            />
             The best <span className="text-[#0000FF]">otomation systems</span>
             <br />
             are working in sync. Like owl's eyes.{" "}
