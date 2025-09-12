@@ -23,7 +23,7 @@ const Header = () => {
         {/* Combined Logo and Header Image Section */}
         <div className="relative py-8 sm:py-10 lg:py-12">
           {/* Combined logo and header image */}
-          <div className="flex justify-center">
+          <div className="flex justify-end">
             <img 
               src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/ivnkooon_logo_header.png" 
               alt="otobrothers" 
