@@ -239,19 +239,19 @@ const ContactSection = () => {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-[#0000FF] rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-xl text-white">Proven track record with 21 successful implementations, delivering +quarter of a million dollars in business revenue.</p>
-              </div>
-              <div className="flex items-start space-x-3">
-                <div className="w-2 h-2 bg-[#0000FF] rounded-full mt-2 flex-shrink-0"></div>
                 <p className="text-xl text-white">Straight talkers because business talk is serious but it shouldn't be boring.</p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-[#0000FF] rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-xl text-white">We leave customers' teams fully trained and with tools to experiment their own otomations.</p>
+                <p className="text-xl text-white">We leave customers' teams fully trained and with tools to experiment their own otomation.</p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-[#0000FF] rounded-full mt-2 flex-shrink-0"></div>
                 <p className="text-xl text-white">+50 years experience combined in Sales, Marketing, Advertising and Strategy; with Capital letters because we know what are we talking about.</p>
+              </div>
+              <div className="flex items-start space-x-3">
+                <div className="w-2 h-2 bg-[#0000FF] rounded-full mt-2 flex-shrink-0"></div>
+                <p className="text-xl text-white">Proven track record with 21 successful implementations to date, with +$250k business revenue via otomation efficiencies.</p>
               </div>
             </div>
           </div>
