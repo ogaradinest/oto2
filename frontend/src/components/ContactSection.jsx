@@ -235,7 +235,7 @@ const ContactSection = () => {
         {/* Why Choose Us - Full width with brushed steel gray background */}
         <div className="mt-16">
           <div className="bg-gray-400 rounded-3xl shadow-xl p-8 w-full">
-            <h3 className="text-4xl lg:text-5xl font-bold text-white mb-6 text-center">Why Choose otobrothers?</h3>
+            <h3 className="text-4xl lg:text-5xl font-bold text-white mb-6 text-center">Why choose otobrothers?</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-[#0000FF] rounded-full mt-2 flex-shrink-0"></div>
