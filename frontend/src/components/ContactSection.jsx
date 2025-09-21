@@ -174,13 +174,13 @@ const ContactSection = () => {
                   </div>
 
                   {/* Submit Button */}
-                  <button
-                    type="submit"
-                    className="w-full bg-gradient-to-r from-[#0000FF] to-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-blue-700 hover:to-[#0000FF] transition-all duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl"
+                  <a
+                    href="mailto:support@otobrothers.com?subject=Business Automation Inquiry&body=Hello,%0D%0A%0D%0AI am interested in learning more about your automation solutions.%0D%0A%0D%0AName: %0D%0ACompany: %0D%0APhone: %0D%0A%0D%0APlease contact me to discuss our automation needs.%0D%0A%0D%0AThank you!"
+                    className="w-full bg-gradient-to-r from-[#0000FF] to-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-blue-700 hover:to-[#0000FF] transition-all duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl no-underline"
                   >
                     Send Inquiry
                     <Send size={20} />
-                  </button>
+                  </a>
                 </form>
               )}
             </div>
