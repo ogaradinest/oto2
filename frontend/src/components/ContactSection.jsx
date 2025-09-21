@@ -205,7 +205,7 @@ const ContactSection = () => {
                     </div>
                     <div className="flex items-center">
                       <Mail className="text-[#F9AD6A]" size={16} />
-                      <span className="ml-3">cris@otobrothers.com</span>
+                      <span className="ml-3">support@otobrothers.com</span>
                     </div>
                   </div>
                 </div>
