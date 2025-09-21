@@ -223,7 +223,7 @@ const ContactSection = () => {
                     </div>
                     <div className="flex items-center">
                       <Mail className="text-gray-100" size={16} />
-                      <span className="ml-3">dan@otobrothers.com</span>
+                      <span className="ml-3">support@otobrothers.com</span>
                     </div>
                   </div>
                 </div>
